@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Achsah</title>
+    <link rel="stylesheet" href="index.css" type="text/css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class ="logo">
+                <a class="logo-text"   href="index.html">facebook</a>
+                  
+            </div>
+            <div class="login">
+                <form  actions="">
+                    <table class="login controls">
+                        <tr>
+                            <td><label class="login-label">Email or Password</label></td>
+                            <td><label class="login-label">Password</label></td>
+                        </tr>
+                        <tr>
+                            <td><input type="text"></td>
+                            <td><input type="text"></td>
+                            <td><input class="sub-btn"type="submit" value="Log In"></td>
+                        </tr>
+                        <tr>
+                            <td> </td>
+                            <td><a class="forgotten" href="forgotten.html">Forgotten Account?</a></td>
+                        </tr>
+
+                    </table>
+                </form>
+            
+            </div>
+        </div>
+        <div class="main-body">
+            <div class="left-section">
+                <p class="para">Facebook helps you connect  and share with the <br> people in your life.</p>
+                <img class="image" src="fb.jpeg"alt="">
+
+            </div>
+            <div class="right-section">
+                <h1 id="title">Create an account</h1>
+                <p id="subt">It's quick and easy.</p>
+                <form action="fb2.html" id="signup-form">
+                    <input name="fname" id="ffname" type="text" type="submit" placeholder="First Name">
+                    <input name="sname" id="ssname" type="text"type="submit"  placeholder="Surname">
+                    <input  name="emailadd" id="email" type="text"type="submit"  placeholder="Mobile number or Email address">
+                    <input name="passwrd" id="pswd" type="text"type="submit"  placeholder="New Password">
+
+                
+               <p class="bday-gen">Birthday</p>
+               <select class="date" name="day" id="">
+                   <option value="">Day</option>
+                   <option value="1">1</option>
+                   <option value="2">2</option>
+                   <option value="3">3</option>
+                   <option value="4">4</option>
+                   <option value="5">5</option>
+                   <option value="6">6</option>
+                   <option value="7">7</option>
+                   <option value="8">8</option>
+                   <option value="9">9</option>
+
+               </select>
+               <select class="date" name="month" id="">
+                <option value="">Month</option>
+                <option value="Jan">jan</option>
+                <option value="">feb</option>
+                <option value="">Mar</option>
+                <option value=""></option>
+                <option value="">5</option>
+                <option value="">6</option>
+                <option value="">7</option>
+                <option value="">8</option>
+                <option value="">9</option>
+
+            </select>
+            <select class="date" name="year" id="">
+                <option value="">Year</option>
+                <option value="2000">2000</option>
+                <option value="">1999</option>
+                <option value="">1998</option>
+                <option value="">4</option>
+                <option value="">5</option>
+                <option value="">6</option>
+                <option value="">7</option>
+                <option value="">8</option>
+                <option value="">9</option>
+
+            </select>
+            <p class="bday-gen">Gender</p>
+            <input type="radio" name="gen">
+            <label >Female</label>
+            <input type="radio" name="gen">
+            <label >Male</label>
+            <input type="radio" name="gen">
+            <label >Custom</label>
+            <p id="terms">By clicking Sign Up , you agree to our Terms of Use , Data Policy<br> and Cookies Policy . You can receive SMS notifications from us<br> and withdraw the option at any time.</p>
+            
+            <div>
+                <button class="submit" type="submit"  >Sign Up</button>
+
+            </div>
+                </form>
+         </div>
+
+        </div>
+    </div>
+   
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.3/dist/jquery.validate.js"></script>
+    <script src="fb.js"></script>
+</body>
+</html>
